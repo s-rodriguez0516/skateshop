@@ -5,11 +5,34 @@
     font-family: 'Bebas Neue', sans-serif;
 
 }
+
 body{
     overflow-x: hidden;
- 
+    
   
     
+}
+.letra{
+    font-size: 2vh;
+    
+}
+.navbarr{
+    width: 100vh;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+}
+.buscar{
+    width: 35vh;
+    height: 4vh;
+    font-size: 10rem;
+}
+.espacio1{
+    margin-left: 2vh;
+}
+.espacio{
+    margin-left: 2vh;
 }
 
 .si{
