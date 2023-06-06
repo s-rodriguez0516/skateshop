@@ -1,0 +1,81 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+body{
+    overflow-x: hidden;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.si{
+    margin-left: 35vh;
+}
+.no{
+    margin-left: 10vh;
+}
+.but{
+    margin-left: 7.9vh;
+}
+.imagen{
+    width: 100%;
+    height: 85vh;
+    overflow: hidden;
+}
+.imagen:hover{
+    transform: scale(1.3);
+    transition: ease-in-out all 0.8s;
+    object-fit: cover;
+}
+
+.todo{
+    position: relative;
+    z-index: 1;
+}
+
+
+.container-img{
+    background: url('https://img.theculturetrip.com/wp-content/uploads/2017/06/skatehut-shop-shots-e1498830038523.jpg');
+    width: 100%;
+    height: 700px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    transition: ease-in-out all 0.8s;
+    overflow-y: hidden;
+}
+
+.container-img:hover{
+    transform: scale(1.1);
+    transition: ease-in-out all 0.8s;
+}
+.conocenos{
+    display: flex;
+}
+.info{
+    margin-left: 10vh;
+}
+.flipshop{
+    margin-left: 20vh;
+}
+h5{
+    font-size: 1px;
+    
+}
+.imagenes{
+    margin-left: 28vh;
+    width: 70vh;
+    height: 90vh;
+}
+.flecha{
+    color: black;
+}
+.nombre{
+    color: black;
+}
+.precio{
+    color: black;
+}
+.videoSK{
+    margin-top: 12vh;
+    margin-left: 5vh;
+    height: 70vh;
+}
